@@ -230,19 +230,19 @@ validation were completed manually.
 ------------------------------------------------------------------------
 
 # Honest Hours
+```
+        Task                           Time
+        --------------------- -------------
+        Project setup                20 min
+        Shared package               20 min
+        Customer App                 15 min
+        Driver App                   15 min
+        Admin App                    15 min
+        Testing & Debugging          30 min
+        README                       15 min
 
-  Task                           Time
-  --------------------- -------------
-  Project setup                20 min
-  Shared package               20 min
-  Customer App                 15 min
-  Driver App                   15 min
-  Admin App                    15 min
-  Testing & Debugging          30 min
-  README                       15 min
-
-**Total:** \~2 -- 2.5 hours.
-
+        **Total:** \~2 -- 2.5 hours.
+```
 ------------------------------------------------------------------------
 
 # Known Gaps
