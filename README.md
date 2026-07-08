@@ -136,12 +136,14 @@ A single reusable component supports Customer, Driver, and Admin
 variants using discriminated TypeScript props instead of maintaining
 three separate implementations.
 
-## Discriminated-union props on `<OrderCard />`** (`variant: 'customer' | 'driver' | 'admin'`)
+## Discriminated-union props on `<OrderCard />`** 
+(`variant: 'customer' | 'driver' | 'admin'`)
 instead of three components or one component with a dozen optional booleans. TypeScript
 narrows the `data` shape per variant, so a driver-view can't accidentally receive an
 `Order` at compile time.
 
-## SectionList for Admin, grouped client-side by `category`** — the mockup shows category
+## SectionList for Admin, grouped client-side by `category`** 
+— the mockup shows category
 headers (Cash / MI Empty / Unassigned); grouping happens once in the screen, not inside
 the shared card.
 
